@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GDK INTERIOR</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo.png" alt="altered text"></a>
+            <div class="nav-links" id="nav_items">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">DESIGNERS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Want to Re-model Your Home!</h1>
+        <p>Do you need a small change in your home but don’t know where to start?</p>
+        <a href="" class="visit-btn">Visit us to know more</a>
+    </div>
+    
+    </section>
+    
+<section class="design">
+    <h1>Our Designs</h1>
+    <p>We will show what a seemingly small changes would look like by changing some wall colors or wall papers, refacing cabinets or changing décor pieces and moving other around. </p>
+    
+    <div class="row">
+            <div class="design-col">
+                <img src="pictures/DRKIT6.png">
+                <div class = "laye">
+                <h3>DINING ROOM AND KITCHEN</h3>
+                </div>      
+            </div>
+            <div class="design-col">
+                <img src="pictures/MASTER.png">
+                <div class = "laye">
+                <h3>MASTER BEDROOM</h3>
+                </div>      
+            </div>
+            <div class="design-col">
+                <img src="pictures/LIVINGROOM.jpg">
+                <div class = "laye">
+                <h3>LIVING ROOM</h3>
+                </div>      
+            </div>
+    </div>
+        
+</section>
+    
+    <section class="design">
+     
+    <div class="row">
+            <div class="design-col">
+                <img src="pictures/shrineroom1.jpg">
+                <div class = "laye">
+                <h3>SHINING ROOM</h3>
+                </div>      
+            </div>
+            <div class="design-col">
+                <img src="pictures/KIDSROOM.jpg">
+                <div class = "laye">
+                <h3>KIDS ROOMM</h3>
+                </div>      
+            </div>
+            <div class="design-col">
+                <img src="pictures/HomeLibrary%20.png">
+                <div class = "laye">
+                <h3>HOME LIBRARY</h3>
+                </div>      
+            </div>
+    </div>
+        
+</section>
+    
+ 
+    
+    <section class="design">
+     
+    <div class="row">
+            <div class="design-col">
+                <img src="pictures/Office%20Room1.jpg">
+                <div class = "laye">
+                <h3>OFFICE ROOM</h3>
+                </div>      
+            </div>
+            <div class="design-col">
+                <img src="pictures/tvroom2.png">
+                <div class = "laye">
+                <h3>TV ROOM</h3>
+                </div>      
+            </div>
+            <div class="design-col">
+                <img src="pictures/Outdoor%20spaces1.jpg">
+                <div class = "laye">
+                <h3>OUTER SPACES</h3>
+                </div>      
+            </div>
+    </div>
+        
+</section>
+
+<!-----services---->
+    
+    <section class="services">
+        <h1>Inquiries</h1>
+        <p>Home Re-modeling Services to beautify your home.</p>
+        
+        <div class="row">
+            <div class="services-col">
+                <h3>GDK Interiors</h3>
+                <p> Contact us on  0773661894<br>
+                    Address: No. 58/7/F, School Lane, Nawala<br>
+                    E-mail Address: gdkinteri@gmail.com
+</p>
+                
+            </div>        
+        </div>
+    </section>
+    
+
+    
+    
+    
+<!-----javacript for Toggle Menu---->
+    
+<script>
+    
+    var nav_items = document.getElementById("nav_items");
+    function showMenu(){
+        nav_items.style.right = "0";
+    }
+    function hideMenu(){
+        nav_items.style.right = "-200px";
+    }
+
+    
+    </script>
+</body>
+</html>
